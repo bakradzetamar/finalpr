@@ -540,6 +540,38 @@
     }
 }
 
+/* last part */
+
+aside {
+  width: 35%;
+  height: 350px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 50px;
+  float: left;
+  font-style: italic;
+  /* background-color: lightgray; */
+}
+.aside-text {
+    width: 100%;
+    height: 150px;  
+}
+.asaidetext-h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.asaidetext-h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.asaidetext-p {
+    font-size: 16px;
+    font-family: "Oranienbaum", serif;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 20px;
+}
+
 
 .footer-div{
     width: 100%;
@@ -547,6 +579,7 @@
     background-color: black;
     justify-content: space-between;
     display: flex;
+    margin-top: 10%;
 }
 
 .social-icons{
@@ -605,7 +638,7 @@
     align-items: center;
 }
 .img-container{
-    max-width: 350px;
+    max-width: 400px;
     width: 100%;
     height: 300px;
     justify-content: center;
@@ -645,22 +678,15 @@
     margin-top: 20px;
 }
 
-.murecho {
-    font-family: "Murecho", sans-serif;
-    /* font-optical-sizing: auto; */
-    font-weight: 400;
-    font-style: normal;
-  }
-
 
 /* OSA1 START */
+
 .slider {
     margin: 50px auto;
     width: 50%;
 }
-/* .img-box img {
-    width: 100%;
-} */
+
+
 .btn1{
     width: 30px;
     border: none;
@@ -712,13 +738,16 @@
     display: flex;
     position: absolute;
     padding: 30px;
-    top: 60;
+    top: 2%;
+    font-family: "Murecho", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.nav-1unit-ul li{
+.nav-1unit-ul li {
     /* padding-right:20px ; */
     color: white;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: normal;
 }
 .nav-1unit-ul span {
 color:white;
@@ -729,13 +758,17 @@ margin: 0 10px;
 
 .nav-1unit a {
 color:white;
-font-size: 20px;
+font-size: 30px;
+font-family: "Murecho", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 
 
 }
 .slider-img {
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 400px;
     margin: 0 auto;
 }
 .img-box {
@@ -745,36 +778,33 @@ font-size: 20px;
 /* k5 */
 
 .unit-list h2 {
-    margin-bottom: 20px;
+    
+    margin: 20px;
     font-size: 20px;
     font-family: "Murecho", sans-serif;
-    font-weight: 800;
-    margin-left: 20px;
+    font-weight: 400;
+    font-style: normal;
 }
 .unit-list h2:hover {
    color: midnightblue;
     opacity: 0.5;
+    
 }
-.murecho {
-    font-family: "Murecho", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+
   .unit-list p{
     font-family: "Murecho", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
     font-weight: 300;
+    font-style: normal;
     margin-left: 20px;
+    line-height: 25px;
     
   }
 
   .unit-list h3{
     
-    font-size: 20px;
     font-family: "Murecho", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+    font-style: normal;
     margin: 20px;
     border-bottom: 2px solid black ;
     transition:  0.2s ease;
@@ -794,8 +824,64 @@ font-size: 20px;
 .third-pic {
     height: 500px;
     max-width: 700px;
-    width: 80%;
+    width: 100%;
     background-image:url(../images/7.3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.third-pic:hover {
+    max-width: 700px;
+    width: 80%;
+    background-image: url(../images/7.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-left: 50px;
+    
+}
+
+.unit-h2 {
+    font-family: "Murecho", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 30px;}
+
+.unit-h2 p {
+    font-family: "Murecho", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+   
+  font-size: 20px;
+}
+/* k5 */
+
+.unit-list h3{
+    
+    font-size: 20px;
+    font-family: "Murecho", sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    border-bottom: 2px solid black ;
+    transition:  0.2s ease;
+    width: 200px;
+
+}
+.iframes {
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 10%;
+   
+}
+
+
+/* HY-806 */
+
+.third-pic {
+    height: 500px;
+    max-width: 700px;
+    width: 80%;
+    background-image:url(../images/7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    margin: 50px;
@@ -803,7 +889,7 @@ font-size: 20px;
 .third-pic:hover {
     max-width: 700px;
     width: 80%;
-    background-image: url(../images/7.1);
+    background-image: url(../images/7.3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    margin: 50px;
@@ -812,4 +898,65 @@ font-size: 20px;
 
 .unit-h2 {
     margin-top: 20px;
+    font-family: "Murecho", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.unit-h2 p{
+    font-size: 20px;
+    font-family: "Murecho", sans-serif;
+    font-weight: 300;
+    font-style: normal;}
+/* amat30 */
+
+.amat30  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f1eded;
+    
+     
+}
+.amat30 img {
+    max-width: 350px;
+    width: 100%;
+    margin: 10px;
+}
+.asid30 h2{
+    font-size: 20px;
+    font-family: "Murecho", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* MC-M055 Luxury */
+
+.mc18 img {
+    height: 700px;
+    width: 80%;
+   margin-left: 10%;
+   margin-top: 2%;
+}
+
+
+.mc11 p {
+  font-size: 20px; 
+  font-family: "Murecho", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  line-height: 33px;
+  padding-left: 10px;
+}
+.mc11 h2 {
+    font-size: 30px;
+    font-family: "Murecho", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 30px;
+}
+
+/* a-dec 500 */
+.adev500 {
+    margin-top: 30px;
+    margin-left: 15%;
 }
